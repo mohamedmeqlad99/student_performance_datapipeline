@@ -19,21 +19,21 @@ The dataset used in this project consists of student performance data. It includ
 
 These datasets are cleaned, transformed, and stored using Spark to facilitate efficient analysis.
 ### Project Architecture
-![Project Architecture](Screenshot 2025-04-27 133625.png)
+![Project Architecture](imgs/Screenshot 2025-04-27 133625.png)
 
 ### Airflow DAG
 This image shows the DAG that orchestrates the ETL pipeline. Each task in the pipeline is handled by different operators in Airflow.
 
-![Airflow DAG](images/1.png)
+![Airflow DAG](imgs/1.png)
 
 ### Streamlit Dashboard
 Once the data is processed, a simple Streamlit dashboard is used to display insights from the student performance data.
 
 
-![Airflow DAG](images/2.png)
+![Airflow DAG](imgs/2.png)
 
 
-![Airflow DAG](images/3.png)
+![Airflow DAG](imgs/3.png)
 
 ## Technologies Used
 
